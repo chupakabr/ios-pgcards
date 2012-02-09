@@ -21,9 +21,9 @@
 		3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */; };
 		3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73826214E3EC450083F386 /* PGViewController_iPad.xib */; };
 		3E73826B14E3F1AC0083F386 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73826A14E3F1AC0083F386 /* iAd.framework */; };
-		3E73827E14E408F10083F386 /* cards-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827D14E408F10083F386 /* cards-icon-57.png */; };
-		3E73828014E408F90083F386 /* cards-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827F14E408F90083F386 /* cards-icon-114.png */; };
-		3E73828214E409010083F386 /* cards-icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73828114E409010083F386 /* cards-icon-72.png */; };
+		3E73827E14E408F10083F386 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827D14E408F10083F386 /* Icon.png */; };
+		3E73828014E408F90083F386 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827F14E408F90083F386 /* Icon@2x.png */; };
+		3E73828214E409010083F386 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73828114E409010083F386 /* Icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,9 +46,9 @@
 		3E73826014E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPhone.xib; sourceTree = "<group>"; };
 		3E73826314E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPad.xib; sourceTree = "<group>"; };
 		3E73826A14E3F1AC0083F386 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		3E73827D14E408F10083F386 /* cards-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-57.png"; sourceTree = "<group>"; };
-		3E73827F14E408F90083F386 /* cards-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-114.png"; sourceTree = "<group>"; };
-		3E73828114E409010083F386 /* cards-icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-72.png"; sourceTree = "<group>"; };
+		3E73827D14E408F10083F386 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3E73827F14E408F90083F386 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3E73828114E409010083F386 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 				3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */,
 				3E06C3AB14E40C84007AC153 /* Default@2x.png */,
 				3E06C3A814E40C7B007AC153 /* Default.png */,
-				3E73828114E409010083F386 /* cards-icon-72.png */,
-				3E73827F14E408F90083F386 /* cards-icon-114.png */,
-				3E73827D14E408F10083F386 /* cards-icon-57.png */,
+				3E73828114E409010083F386 /* Icon-72.png */,
+				3E73827F14E408F90083F386 /* Icon@2x.png */,
+				3E73827D14E408F10083F386 /* Icon.png */,
 				3E73825014E3EC450083F386 /* PGCards */,
 				3E73824914E3EC450083F386 /* Frameworks */,
 				3E73824714E3EC450083F386 /* Products */,
@@ -180,9 +180,9 @@
 				3E73825514E3EC450083F386 /* InfoPlist.strings in Resources */,
 				3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */,
 				3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */,
-				3E73827E14E408F10083F386 /* cards-icon-57.png in Resources */,
-				3E73828014E408F90083F386 /* cards-icon-114.png in Resources */,
-				3E73828214E409010083F386 /* cards-icon-72.png in Resources */,
+				3E73827E14E408F10083F386 /* Icon.png in Resources */,
+				3E73828014E408F90083F386 /* Icon@2x.png in Resources */,
+				3E73828214E409010083F386 /* Icon-72.png in Resources */,
 				3E06C3A914E40C7B007AC153 /* Default.png in Resources */,
 				3E06C3AC14E40C84007AC153 /* Default@2x.png in Resources */,
 				3E06C3AE14E40C98007AC153 /* Default-Portrait~ipad.png in Resources */,
