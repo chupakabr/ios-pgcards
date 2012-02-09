@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E06C3A914E40C7B007AC153 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E06C3A814E40C7B007AC153 /* Default.png */; };
+		3E06C3AC14E40C84007AC153 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E06C3AB14E40C84007AC153 /* Default@2x.png */; };
+		3E06C3AE14E40C98007AC153 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */; };
+		3E06C3B014E40CA3007AC153 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */; };
 		3E73824B14E3EC450083F386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824A14E3EC450083F386 /* UIKit.framework */; };
 		3E73824D14E3EC450083F386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824C14E3EC450083F386 /* Foundation.framework */; };
 		3E73824F14E3EC450083F386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824E14E3EC450083F386 /* CoreGraphics.framework */; };
@@ -16,23 +20,35 @@
 		3E73825E14E3EC450083F386 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73825D14E3EC450083F386 /* PGViewController.m */; };
 		3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */; };
 		3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73826214E3EC450083F386 /* PGViewController_iPad.xib */; };
+		3E73826B14E3F1AC0083F386 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73826A14E3F1AC0083F386 /* iAd.framework */; };
+		3E73827E14E408F10083F386 /* cards-icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827D14E408F10083F386 /* cards-icon-57.png */; };
+		3E73828014E408F90083F386 /* cards-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73827F14E408F90083F386 /* cards-icon-114.png */; };
+		3E73828214E409010083F386 /* cards-icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E73828114E409010083F386 /* cards-icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E06C3A814E40C7B007AC153 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3E06C3AB14E40C84007AC153 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		3E73824614E3EC450083F386 /* PGCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E73824A14E3EC450083F386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E73824C14E3EC450083F386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E73824E14E3EC450083F386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3E73825214E3EC450083F386 /* PGCards-Info.plist */ = {isa = PBXFileReference; path = "PGCards-Info.plist"; sourceTree = "<group>"; };
+		3E73825214E3EC450083F386 /* PGCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGCards-Info.plist"; sourceTree = "<group>"; };
 		3E73825414E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E73825614E3EC450083F386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E73825814E3EC450083F386 /* PGCards-Prefix.pch */ = {isa = PBXFileReference; path = "PGCards-Prefix.pch"; sourceTree = "<group>"; };
-		3E73825914E3EC450083F386 /* PGAppDelegate.h */ = {isa = PBXFileReference; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		3E73825814E3EC450083F386 /* PGCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PGCards-Prefix.pch"; sourceTree = "<group>"; };
+		3E73825914E3EC450083F386 /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
 		3E73825A14E3EC450083F386 /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
-		3E73825C14E3EC450083F386 /* PGViewController.h */ = {isa = PBXFileReference; path = PGViewController.h; sourceTree = "<group>"; };
+		3E73825C14E3EC450083F386 /* PGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewController.h; sourceTree = "<group>"; };
 		3E73825D14E3EC450083F386 /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
 		3E73826014E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPhone.xib; sourceTree = "<group>"; };
 		3E73826314E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPad.xib; sourceTree = "<group>"; };
+		3E73826A14E3F1AC0083F386 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3E73827D14E408F10083F386 /* cards-icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-57.png"; sourceTree = "<group>"; };
+		3E73827F14E408F90083F386 /* cards-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-114.png"; sourceTree = "<group>"; };
+		3E73828114E409010083F386 /* cards-icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards-icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E73826B14E3F1AC0083F386 /* iAd.framework in Frameworks */,
 				3E73824B14E3EC450083F386 /* UIKit.framework in Frameworks */,
 				3E73824D14E3EC450083F386 /* Foundation.framework in Frameworks */,
 				3E73824F14E3EC450083F386 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +69,13 @@
 		3E73823B14E3EC450083F386 = {
 			isa = PBXGroup;
 			children = (
+				3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */,
+				3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */,
+				3E06C3AB14E40C84007AC153 /* Default@2x.png */,
+				3E06C3A814E40C7B007AC153 /* Default.png */,
+				3E73828114E409010083F386 /* cards-icon-72.png */,
+				3E73827F14E408F90083F386 /* cards-icon-114.png */,
+				3E73827D14E408F10083F386 /* cards-icon-57.png */,
 				3E73825014E3EC450083F386 /* PGCards */,
 				3E73824914E3EC450083F386 /* Frameworks */,
 				3E73824714E3EC450083F386 /* Products */,
@@ -69,6 +93,7 @@
 		3E73824914E3EC450083F386 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E73826A14E3F1AC0083F386 /* iAd.framework */,
 				3E73824A14E3EC450083F386 /* UIKit.framework */,
 				3E73824C14E3EC450083F386 /* Foundation.framework */,
 				3E73824E14E3EC450083F386 /* CoreGraphics.framework */,
@@ -155,6 +180,13 @@
 				3E73825514E3EC450083F386 /* InfoPlist.strings in Resources */,
 				3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */,
 				3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */,
+				3E73827E14E408F10083F386 /* cards-icon-57.png in Resources */,
+				3E73828014E408F90083F386 /* cards-icon-114.png in Resources */,
+				3E73828214E409010083F386 /* cards-icon-72.png in Resources */,
+				3E06C3A914E40C7B007AC153 /* Default.png in Resources */,
+				3E06C3AC14E40C84007AC153 /* Default@2x.png in Resources */,
+				3E06C3AE14E40C98007AC153 /* Default-Portrait~ipad.png in Resources */,
+				3E06C3B014E40CA3007AC153 /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +281,14 @@
 		3E73826814E3EC450083F386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
 				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,10 +296,14 @@
 		3E73826914E3EC450083F386 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
 				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,6 +327,7 @@
 				3E73826914E3EC450083F386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
