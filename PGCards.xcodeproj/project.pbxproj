@@ -27,10 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E06C3A814E40C7B007AC153 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3E06C3AB14E40C84007AC153 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3E06C3A814E40C7B007AC153 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		3E06C3AB14E40C84007AC153 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		3E06C3AD14E40C98007AC153 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		3E73824614E3EC450083F386 /* PGCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E73824A14E3EC450083F386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E73824C14E3EC450083F386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,9 +46,9 @@
 		3E73826014E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPhone.xib; sourceTree = "<group>"; };
 		3E73826314E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPad.xib; sourceTree = "<group>"; };
 		3E73826A14E3F1AC0083F386 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		3E73827D14E408F10083F386 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		3E73827F14E408F90083F386 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		3E73828114E409010083F386 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3E73827D14E408F10083F386 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		3E73827F14E408F90083F386 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		3E73828114E409010083F386 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E73823B14E3EC450083F386 = {
+		3E2E8DA814E4224D00BDBD76 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				3E06C3AF14E40CA3007AC153 /* Default-Landscape~ipad.png */,
@@ -76,6 +76,13 @@
 				3E73828114E409010083F386 /* Icon-72.png */,
 				3E73827F14E408F90083F386 /* Icon@2x.png */,
 				3E73827D14E408F10083F386 /* Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E73823B14E3EC450083F386 = {
+			isa = PBXGroup;
+			children = (
 				3E73825014E3EC450083F386 /* PGCards */,
 				3E73824914E3EC450083F386 /* Frameworks */,
 				3E73824714E3EC450083F386 /* Products */,
@@ -110,6 +117,7 @@
 				3E73825D14E3EC450083F386 /* PGViewController.m */,
 				3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */,
 				3E73826214E3EC450083F386 /* PGViewController_iPad.xib */,
+				3E2E8DA814E4224D00BDBD76 /* Resources */,
 				3E73825114E3EC450083F386 /* Supporting Files */,
 			);
 			path = PGCards;
@@ -282,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
 				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
@@ -297,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
 				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
