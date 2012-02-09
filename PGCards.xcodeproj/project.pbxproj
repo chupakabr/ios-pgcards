@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E73824B14E3EC450083F386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824A14E3EC450083F386 /* UIKit.framework */; };
+		3E73824D14E3EC450083F386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824C14E3EC450083F386 /* Foundation.framework */; };
+		3E73824F14E3EC450083F386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E73824E14E3EC450083F386 /* CoreGraphics.framework */; };
+		3E73825514E3EC450083F386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E73825314E3EC450083F386 /* InfoPlist.strings */; };
+		3E73825714E3EC450083F386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73825614E3EC450083F386 /* main.m */; };
+		3E73825B14E3EC450083F386 /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73825A14E3EC450083F386 /* PGAppDelegate.m */; };
+		3E73825E14E3EC450083F386 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73825D14E3EC450083F386 /* PGViewController.m */; };
+		3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */; };
+		3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E73826214E3EC450083F386 /* PGViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E73824614E3EC450083F386 /* PGCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E73824A14E3EC450083F386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E73824C14E3EC450083F386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E73824E14E3EC450083F386 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E73825214E3EC450083F386 /* PGCards-Info.plist */ = {isa = PBXFileReference; path = "PGCards-Info.plist"; sourceTree = "<group>"; };
+		3E73825414E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E73825614E3EC450083F386 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E73825814E3EC450083F386 /* PGCards-Prefix.pch */ = {isa = PBXFileReference; path = "PGCards-Prefix.pch"; sourceTree = "<group>"; };
+		3E73825914E3EC450083F386 /* PGAppDelegate.h */ = {isa = PBXFileReference; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		3E73825A14E3EC450083F386 /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		3E73825C14E3EC450083F386 /* PGViewController.h */ = {isa = PBXFileReference; path = PGViewController.h; sourceTree = "<group>"; };
+		3E73825D14E3EC450083F386 /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
+		3E73826014E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPhone.xib; sourceTree = "<group>"; };
+		3E73826314E3EC450083F386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PGViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E73824314E3EC450083F386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E73824B14E3EC450083F386 /* UIKit.framework in Frameworks */,
+				3E73824D14E3EC450083F386 /* Foundation.framework in Frameworks */,
+				3E73824F14E3EC450083F386 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E73823B14E3EC450083F386 = {
+			isa = PBXGroup;
+			children = (
+				3E73825014E3EC450083F386 /* PGCards */,
+				3E73824914E3EC450083F386 /* Frameworks */,
+				3E73824714E3EC450083F386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E73824714E3EC450083F386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E73824614E3EC450083F386 /* PGCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E73824914E3EC450083F386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E73824A14E3EC450083F386 /* UIKit.framework */,
+				3E73824C14E3EC450083F386 /* Foundation.framework */,
+				3E73824E14E3EC450083F386 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E73825014E3EC450083F386 /* PGCards */ = {
+			isa = PBXGroup;
+			children = (
+				3E73825914E3EC450083F386 /* PGAppDelegate.h */,
+				3E73825A14E3EC450083F386 /* PGAppDelegate.m */,
+				3E73825C14E3EC450083F386 /* PGViewController.h */,
+				3E73825D14E3EC450083F386 /* PGViewController.m */,
+				3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */,
+				3E73826214E3EC450083F386 /* PGViewController_iPad.xib */,
+				3E73825114E3EC450083F386 /* Supporting Files */,
+			);
+			path = PGCards;
+			sourceTree = "<group>";
+		};
+		3E73825114E3EC450083F386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E73825214E3EC450083F386 /* PGCards-Info.plist */,
+				3E73825314E3EC450083F386 /* InfoPlist.strings */,
+				3E73825614E3EC450083F386 /* main.m */,
+				3E73825814E3EC450083F386 /* PGCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E73824514E3EC450083F386 /* PGCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E73826714E3EC450083F386 /* Build configuration list for PBXNativeTarget "PGCards" */;
+			buildPhases = (
+				3E73824214E3EC450083F386 /* Sources */,
+				3E73824314E3EC450083F386 /* Frameworks */,
+				3E73824414E3EC450083F386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGCards;
+			productName = PGCards;
+			productReference = 3E73824614E3EC450083F386 /* PGCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E73823D14E3EC450083F386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 7bit;
+			};
+			buildConfigurationList = 3E73824014E3EC450083F386 /* Build configuration list for PBXProject "PGCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E73823B14E3EC450083F386;
+			productRefGroup = 3E73824714E3EC450083F386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E73824514E3EC450083F386 /* PGCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E73824414E3EC450083F386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E73825514E3EC450083F386 /* InfoPlist.strings in Resources */,
+				3E73826114E3EC450083F386 /* PGViewController_iPhone.xib in Resources */,
+				3E73826414E3EC450083F386 /* PGViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E73824214E3EC450083F386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E73825714E3EC450083F386 /* main.m in Sources */,
+				3E73825B14E3EC450083F386 /* PGAppDelegate.m in Sources */,
+				3E73825E14E3EC450083F386 /* PGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E73825314E3EC450083F386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E73825414E3EC450083F386 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E73825F14E3EC450083F386 /* PGViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E73826014E3EC450083F386 /* en */,
+			);
+			name = PGViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3E73826214E3EC450083F386 /* PGViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E73826314E3EC450083F386 /* en */,
+			);
+			name = PGViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E73826514E3EC450083F386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E73826614E3EC450083F386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E73826814E3EC450083F386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
+				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E73826914E3EC450083F386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PGCards/PGCards-Prefix.pch";
+				INFOPLIST_FILE = "PGCards/PGCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E73824014E3EC450083F386 /* Build configuration list for PBXProject "PGCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E73826514E3EC450083F386 /* Debug */,
+				3E73826614E3EC450083F386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E73826714E3EC450083F386 /* Build configuration list for PBXNativeTarget "PGCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E73826814E3EC450083F386 /* Debug */,
+				3E73826914E3EC450083F386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E73823D14E3EC450083F386 /* Project object */;
+}
