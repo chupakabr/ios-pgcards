@@ -20,6 +20,7 @@ static NSInteger PG_HOURS[] = {1, 2, 3, 5, 7, 13, 21, 34};
 @synthesize label = _label;
 @synthesize pageControl = _pageControl;
 @synthesize adBanner = _adBanner;
+@synthesize bannerIsVisible = _bannerIsVisible;
 
 
 - (void)didReceiveMemoryWarning
@@ -40,6 +41,12 @@ static NSInteger PG_HOURS[] = {1, 2, 3, 5, 7, 13, 21, 34};
     
     [self.pageControl setCurrentPage:0];
     [self.label setText:[NSString stringWithFormat:@"%d", PG_HOURS[0]]];
+    
+    //
+    // Ads
+    
+    self.bannerIsVisible = NO;
+    self.adBanner.delegate = self;
     
     
     //
@@ -118,6 +125,43 @@ static NSInteger PG_HOURS[] = {1, 2, 3, 5, 7, 13, 21, 34};
     [self.pageControl setCurrentPage:nextPage];
     
     [self.label setText:[NSString stringWithFormat:@"%d", PG_HOURS[nextPage]]];
+}
+
+
+#pragma mark - Ads
+
+- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
+{
+    if (!willLeave)
+    {
+        // insert code here to suspend any services that might conflict with the advertisement
+    }
+    
+    return YES;
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner
+{
+    if (!self.bannerIsVisible)
+    {
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        // Assumes the banner view is just off the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+        [UIView commitAnimations];
+        self.bannerIsVisible = YES;
+    }
+}
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    if (self.bannerIsVisible)
+    {
+        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+        // Assumes the banner view is placed at the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, banner.frame.size.height);
+        [UIView commitAnimations];
+        self.bannerIsVisible = NO;
+    }
 }
 
 @end
