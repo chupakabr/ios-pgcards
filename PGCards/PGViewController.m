@@ -45,7 +45,7 @@ static NSInteger PG_HOURS[] = {1, 2, 3, 5, 7, 13, 21, 34};
     //
     // Ads
     
-    self.bannerIsVisible = NO;
+    self.bannerIsVisible = YES;
     self.adBanner.delegate = self;
     
     
