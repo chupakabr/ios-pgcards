@@ -146,19 +146,21 @@ static NSInteger PG_HOURS[] = {1, 2, 3, 5, 7, 13, 21, 34};
     {
         [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
         // Assumes the banner view is just off the bottom of the screen.
-        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+        banner.frame = CGRectOffset(banner.frame, 0, banner.frame.size.height);
         [UIView commitAnimations];
         self.bannerIsVisible = YES;
     }
+    
+    [self bannerView:banner didFailToReceiveAdWithError:nil];
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
-    if (self.bannerIsVisible)
+    if (self.bannerIsVisible/* && banner.frame.origin.y == banner.frame.size.height*/)
     {
         [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
         // Assumes the banner view is placed at the bottom of the screen.
-        banner.frame = CGRectOffset(banner.frame, 0, banner.frame.size.height);
+        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
         [UIView commitAnimations];
         self.bannerIsVisible = NO;
     }
